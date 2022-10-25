@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, //needs to be filled))
-})
+});
 
 const startApolloServer = async (typeDefs, resolvers) => {
     await server.start();
