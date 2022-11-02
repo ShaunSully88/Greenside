@@ -21,7 +21,7 @@ const courseSchema = new Schema({
         type: Number, 
         required: true,
     },
-    cart: {
+    cart_included: {
         type: Boolean,
         required: false,
     },
